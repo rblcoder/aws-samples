@@ -1,12 +1,12 @@
 ## Debug unable to delete VPC endpoint
 
 Asked the following question:
-'''
+
 I am unable to delete an App runner requested VPC endpoint even though the apprunner service is deleted. I have also deleted Network configurations under AWS App Runner. What further steps need to be followed?
-'''
+
 
 Amazon Q answer
-'''
+
 I understand you're having trouble deleting a VPC endpoint that was requested by App Runner, even though you've deleted the App Runner service and its network configurations. Let's investigate this issue and determine the next steps to resolve it.
 
 First, let's gather some information about the VPC endpoint:
@@ -49,4 +49,4 @@ Wait for VPC endpoint deletion:
 
 After deleting the Amazon MQ broker, wait for a few minutes. AWS should automatically delete the associated VPC endpoint.
 
-'''
+
